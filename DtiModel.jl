@@ -2,11 +2,11 @@ module DtiModel
 
 using LinearAlgebra
 
-function multimodel(xdata, A)
-	S0 = A[1]
-	D = [A[2] A[3] A[4]
-		 A[3] A[5] A[6]
-		 A[4] A[6] A[7]]
+function multimodel(xdata, P)
+	S0 = P[1]
+	D = [P[2] P[3] P[4]
+		 P[3] P[5] P[6]
+		 P[4] P[6] P[7]]
 	b = xdata[:, 1]
 	g = xdata[:, 2:4]
 
