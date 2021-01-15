@@ -1,6 +1,6 @@
 # mrvoxel
 
-Some scripts in Julia for parsing Diffusion-Weighted MRI data. Uses nonlinear least squares to fit diffusion model to signal data. 
+Some scripts in Julia for parsing Diffusion-Weighted MRI data. Uses nonlinear least squares to fit diffusion model to each voxel. 
 
 Map of mean diffusivity (MD):
 
