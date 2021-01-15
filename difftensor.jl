@@ -15,11 +15,11 @@ P0 = [1, 0.5, 0, 0, 0.5, 0, 0.5]  # [S0, Dxx, Dxy, Dxz, Dyx, Dyy, Dyz, Dzz]
 numparams = length(P0)
 
 # initialize map arrays
-fitmap = zeros(X, Y, numparams) 	# fit parameter map
-eigvalmap = zeros(X, Y, 3)			# eigenvalue map
-eigvecmap = zeros(X, Y, 3)			# eigenvector map
-MDmap = zeros(X, Y)					# mean diffusivity map
-FAmap = zeros(X, Y)					# fractional anisotropy map
+fitmap = zeros(X, Y, numparams) # fit parameter map
+eigvalmap = zeros(X, Y, 3) # eigenvalue map
+eigvecmap = zeros(X, Y, 3) # eigenvector map
+MDmap = zeros(X, Y)	# mean diffusivity map
+FAmap = zeros(X, Y)	# fractional anisotropy map
 
 for x = 1:X
 	for y = 1:Y
