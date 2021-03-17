@@ -6,7 +6,7 @@ FAmap = readdlm("./fitdata/FA.csv", ',')
 
 setcolormap(8)
 
-heatmap(MDmap)
+heatmap(MDmap, title="Mean Diffusivity (MD)")
 savefig("./pngs/MDmap.png")
 
 heatmap(FAmap)
