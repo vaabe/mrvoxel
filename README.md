@@ -1,10 +1,8 @@
 # mrvoxel
 
-Some scripts in Julia for parsing diffusion-weighted MRI data. Uses nonlinear least squares to fit the diffusion model to each voxel. 
+Some scripts to parse diffusion-weighted MRI data. Uses nonlinear least squares to fit the diffusion model to each voxel. 
 
-Mean diffusivity (MD):
-
-![Mean Diffusivity](./pngs/MDmap.png)
+![Mean Diffusivity](./pngs/MDmap.png "mean diffusivity")
 
 Fractional anisotropy (FA):
 
