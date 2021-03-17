@@ -1,4 +1,4 @@
-Some scripts to parse diffusion-weighted MRI data. Uses nonlinear least squares to fit the diffusion model to each voxel. 
+Fitting a diffusion tensor tensor (Stejskal-Tanner equation) to 70 diffusion-weighted MR images. 
 
 <p float="left">
   <img src="./pngs/MDmap.png" width="49%" />
