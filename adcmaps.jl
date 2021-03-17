@@ -8,7 +8,16 @@ FAmap = readdlm("./fitdata/FA.csv", ',')
 
 #setcolormap(8)
 
-gr(grid = false, size = (900, 900))
+gr(
+   grid = false, 
+   size = (900, 1000), 
+   xtickfontsize = 15,
+   ytickfontsize = 15,
+   titlefontsize = 24,
+   titlefont = :Courier,
+   xtickfont = :Courier,
+   ytickfont = :Courier,
+   )
 
 heatmap(MDmap, 
 		aspect_ratio = 1,
