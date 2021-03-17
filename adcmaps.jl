@@ -13,9 +13,9 @@ gr(
    size = (900, 1000), 
    xtickfontsize = 15,
    ytickfontsize = 15,
-   xguidefontsize = 15,
-   yguidefontsize = 15,
-   titlefontsize = 24,
+   xguidefontsize = 18,
+   yguidefontsize = 18,
+   titlefontsize = 26,
    )
 
 heatmap(MDmap, 
