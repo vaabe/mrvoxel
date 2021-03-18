@@ -17,7 +17,7 @@ gr(
    yguidefontsize = 18,
    titlefontsize = 26,
    background_color = :transparent,
-   foreground_color = :black,
+   foreground_color = "#8e24aa"
    )
 
 heatmap(MDmap, 
