@@ -1,4 +1,4 @@
-Fitting a diffusion tensor tensor (Stejskal-Tanner equation) to 70 diffusion-weighted MR images.   
+Some voxel maps of the diffusion tensor (Stejskal-Tanner equation) for some diffusion-weighted MR images.  
 
 <p float="left">
 <br>
