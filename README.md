@@ -1,4 +1,4 @@
-Some voxel maps of the diffusion tensor (Stejskal-Tanner equation) for some diffusion-weighted MR images.  
+Mapping the diffusion tensor (via the Stejskal-Tanner equation) for some diffusion-weighted MR images.  
 
 <p float="left">
 <br>
